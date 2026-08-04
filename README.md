@@ -24,6 +24,8 @@ Os exemplos contextualizados incluem situações de qualidade da água, ocupaç�
 
 ```text
 .
+├── lista_exercicios
+│   └── Lista_Exercicios_TecnicasProgramacaoI.md  <-- IMPORTANTE
 ├── src
 │   ├── aulas
 │   │   ├── intro_python_03_08_26.py
@@ -43,6 +45,10 @@ Os exemplos contextualizados incluem situações de qualidade da água, ocupaç�
 └── README.md
 ```
 
+### Lista de exercícios
+
+A lista completa de exercícios de Técnicas de Programação I está em [`lista_exercicios/Lista_Exercicios_TecnicasProgramacaoI.md`](lista_exercicios/Lista_Exercicios_TecnicasProgramacaoI.md). O documento contém os 158 exercícios convertidos do PDF original, organizados por fundamentos, condicionais, repetições, recursão e vetores/matrizes.
+
 ### Aulas
 
 Os arquivos em `src/aulas` apresentam os conceitos fundamentais da linguagem, com exemplos executáveis e comentários explicativos.
@@ -52,7 +58,7 @@ Os arquivos em `src/aulas` apresentam os conceitos fundamentais da linguagem, co
 
 ### Exercícios
 
-Os arquivos em `src/exercicios` são programas independentes, executados pelo terminal e geralmente dependentes de dados informados pelo usuário:
+Os arquivos em `src/exercicios` são resoluções e exemplos independentes, executados pelo terminal e geralmente dependentes de dados informados pelo usuário. Eles correspondem a exercícios selecionados da lista em `lista_exercicios/`:
 
 | Arquivo | Tema principal |
 | --- | --- |
