@@ -8,13 +8,7 @@
 
 Material convertido de `Lista_Exercicios_TecnicasProgramacaoI.pdf`, mantendo a numeração e a organização temática do documento original. Fórmulas foram representadas em LaTeX quando a extração permitiu; tabelas e matrizes permanecem em formato textual para preservar o enunciado.
 
-### 1. Qual o resultado das proposições? (Adote: [ / ] divisão normal (quociente); [
-
-% ] resto da divisão; [div] valor inteiro do quociente da divisão; <>
-−𝑏+√𝑏2−4𝑎𝑐
-diferente; a = 10; b = 25; c = π; d = √2; 𝑥 = ; y = cos30; w =
-2𝑎
-Falso; z = !Falso).
+### 1. Qual o resultado das proposições? (Adote: [ / ] divisão normal (quociente); [ % ] resto da divisão; [div] valor inteiro do quociente da divisão; <> diferente; a = 10; b = 25; c = π; d = √2; 𝑥 = −𝑏+√𝑏2−4𝑎𝑐/2𝑎 ; y = cos30; w =  Falso; z = !Falso).
 
 a) Verdadeiro e 12>99
 
