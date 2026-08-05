@@ -496,10 +496,7 @@ dos dois.
 
 mensagem de maior idade ou não.
 
-### 51. Ler o nome de 2 times e o número de gols marcados na partida (para cada
-
-time). Escrever o nome do vencedor. Caso não haja vencedor deverá ser
-impressa a palavra EMPATE.
+### 51. Ler o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.
 
 ### 52. Faça um algoritmo que leia a hora de início e a hora de fim de um jogo de
 
