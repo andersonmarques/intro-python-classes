@@ -15,6 +15,7 @@ O material acompanha a introdução à programação com Python, partindo dos co
 - estruturas de repetição com `for` e `while`;
 - controle de laços com `break` e `continue`;
 - funções, parâmetros, retorno e anotações de tipo;
+- programação orientada a objetos: classes, objetos, construtores e métodos especiais;
 - somatórios, produtos, fatoriais e cálculos matemáticos;
 - exercícios com cálculos financeiros, equação do segundo grau, saldo bancário e classificação de valores.
 
@@ -38,6 +39,8 @@ Os exemplos contextualizados incluem situações de qualidade da água, ocupaç�
 │   │   ├── q81.py
 │   │   ├── q82.py
 │   │   └── q88.py
+│   ├── poo
+│   │   └── pessoa.py
 │   └── notebooks
 │       ├── aula01.ipynb
 │       └── notebook_com_python.ipynb
@@ -69,6 +72,12 @@ Os arquivos em `src/exercicios` são resoluções e exemplos independentes, exec
 | `q81.py` | contagem de 1 a 100.000 |
 | `q82.py` | contagem de números ímpares |
 | `q88.py` | contagem de valores entre 100 e 200 até a entrada de zero |
+
+### Programação orientada a objetos
+
+Os exemplos em `src/poo` apresentam os fundamentos de orientação a objetos em Python:
+
+- `pessoa.py`: criação da classe `Pessoa`, inicialização de atributos com `__init__`, instanciação de objetos e representação textual com `__str__`.
 
 ### Notebooks
 
