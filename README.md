@@ -25,7 +25,8 @@ Os exemplos contextualizados incluem situações de qualidade da água, ocupaç�
 
 ```text
 .
-├── lista_exercicios
+├── listas_exercicios
+│   ├── Lista_Exercicios_POO_TecnicasProgramacao_II.pdf
 │   └── Lista_Exercicios_TecnicasProgramacaoI.md  <-- IMPORTANTE
 ├── src
 │   ├── aulas
@@ -50,7 +51,9 @@ Os exemplos contextualizados incluem situações de qualidade da água, ocupaç�
 
 ### Lista de exercícios
 
-A lista completa de exercícios de Técnicas de Programação I está em [`lista_exercicios/Lista_Exercicios_TecnicasProgramacaoI.md`](lista_exercicios/Lista_Exercicios_TecnicasProgramacaoI.md). O documento contém os 158 exercícios convertidos do PDF original, organizados por fundamentos, condicionais, repetições, recursão e vetores/matrizes.
+A lista completa de exercícios de Técnicas de Programação I está em [`listas_exercicios/Lista_Exercicios_TecnicasProgramacaoI.md`](listas_exercicios/Lista_Exercicios_TecnicasProgramacaoI.md). O documento contém os 158 exercícios convertidos do PDF original, organizados por fundamentos, condicionais, repetições, recursão e vetores/matrizes.
+
+A lista de exercícios de Programação Orientada a Objetos está disponível em [`listas_exercicios/Lista_Exercicios_POO_TecnicasProgramacao_II.pdf`](listas_exercicios/Lista_Exercicios_POO_TecnicasProgramacao_II.pdf).
 
 ### Aulas
 
@@ -61,7 +64,7 @@ Os arquivos em `src/aulas` apresentam os conceitos fundamentais da linguagem, co
 
 ### Exercícios
 
-Os arquivos em `src/exercicios` são resoluções e exemplos independentes, executados pelo terminal e geralmente dependentes de dados informados pelo usuário. Eles correspondem a exercícios selecionados da lista em `lista_exercicios/`:
+Os arquivos em `src/exercicios` são resoluções e exemplos independentes, executados pelo terminal e geralmente dependentes de dados informados pelo usuário. Eles correspondem a exercícios selecionados da lista em `listas_exercicios/`:
 
 | Arquivo | Tema principal |
 | --- | --- |
