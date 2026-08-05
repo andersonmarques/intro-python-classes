@@ -41,7 +41,15 @@ Os exemplos contextualizados incluem situações de qualidade da água, ocupaç�
 │   │   ├── q82.py
 │   │   └── q88.py
 │   ├── poo
-│   │   └── pessoa.py
+│   │   ├── pessoa.py
+│   │   └── lista_poo
+│   │       └── q1
+│   │           ├── cliente_.py
+│   │           ├── item.py
+│   │           ├── pedido.py
+│   │           ├── produto.py
+│   │           ├── teste_q1.py
+│   │           └── tipo_pagamento.py
 │   └── notebooks
 │       ├── aula01.ipynb
 │       └── notebook_com_python.ipynb
@@ -81,6 +89,7 @@ Os arquivos em `src/exercicios` são resoluções e exemplos independentes, exec
 Os exemplos em `src/poo` apresentam os fundamentos de orientação a objetos em Python:
 
 - `pessoa.py`: criação da classe `Pessoa`, inicialização de atributos com `__init__`, instanciação de objetos e representação textual com `__str__`.
+- `lista_poo/q1`: modelagem inicial da questão 1 da lista de POO, com as classes `Cliente`, `Produto`, `Item`, `Pedido` e `Tipo_Pagamento`.
 
 ### Notebooks
 
