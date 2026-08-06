@@ -1,6 +1,12 @@
+# from __future__ import annotations
 from item import Item
 # from cliente_ import Cliente - evitar importação circular
 from tipo_pagamento import Tipo_Pagamento
+
+from typing import TYPE_CHECKING
+
+# if TYPE_CHECKING:
+#     from cliente import Cliente
 
 class Pedido:
     def __init__(self, tipo_pagamento: Tipo_Pagamento):
@@ -8,7 +14,7 @@ class Pedido:
         self.itens : list[Item] = []
         self.tipo_pagamento = tipo_pagamento
 
-    def add_item(self, item: Item):
+    def adicionar_item(self, item: Item):
         self.itens.append(item)
 
     def total(self):

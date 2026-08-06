@@ -1,9 +1,9 @@
 class Produto:
 
-    def __init__(self, nome_local, preco_local, quant_estoque_local):
-        self.nome = nome_local
-        self.preco = preco_local
-        self.quant_estoque = quant_estoque_local
+    def __init__(self, nome:str, preco:float, quant_estoque:int):
+        self.nome = nome
+        self.preco = preco
+        self.quant_estoque = quant_estoque
 
     def __str__(self): # \n \t
         return f"Produto: {self.nome}, \
