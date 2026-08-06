@@ -4,6 +4,7 @@ from tipo_pagamento import Tipo_Pagamento
 from item import Item
 from produto import Produto
 
+
 arroz = Produto(nome = "Arroz", preco = 5.99, quant_estoque = 100)
 feijao = Produto(nome = "Feijão", preco = 7.49, quant_estoque = 80)
 macarrao = Produto(nome = "Macarrão", preco = 2.29, quant_estoque = 120)
