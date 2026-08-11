@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(984, 260)
+        MainWindow.resize(984, 648)
         MainWindow.setStyleSheet("QMainWindow > QWidget {\n"
 "    background-color: rgb(240, 248, 255);\n"
 "}\n"
@@ -104,6 +104,22 @@ class Ui_MainWindow(object):
         self.pushButton_fechar_msg.setGeometry(QtCore.QRect(692, 10, 31, 28))
         self.pushButton_fechar_msg.setStyleSheet("background-color: rgb(214, 214, 214);")
         self.pushButton_fechar_msg.setObjectName("pushButton_fechar_msg")
+        self.frame_3 = QtWidgets.QFrame(parent=self.centralwidget)
+        self.frame_3.setGeometry(QtCore.QRect(10, 250, 961, 371))
+        self.frame_3.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
+        self.frame_3.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
+        self.frame_3.setObjectName("frame_3")
+        self.tableWidget = QtWidgets.QTableWidget(parent=self.frame_3)
+        self.tableWidget.setGeometry(QtCore.QRect(10, 20, 831, 341))
+        self.tableWidget.setObjectName("tableWidget")
+        self.tableWidget.setColumnCount(3)
+        self.tableWidget.setRowCount(0)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(0, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(1, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(2, item)
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -135,6 +151,12 @@ class Ui_MainWindow(object):
         self.comboBox_categoria.setItemText(3, _translate("MainWindow", "Bronze"))
         self.label_msg.setText(_translate("MainWindow", "Erro_sucesso"))
         self.pushButton_fechar_msg.setText(_translate("MainWindow", "X"))
+        item = self.tableWidget.horizontalHeaderItem(0)
+        item.setText(_translate("MainWindow", "Nome"))
+        item = self.tableWidget.horizontalHeaderItem(1)
+        item.setText(_translate("MainWindow", "CPF"))
+        item = self.tableWidget.horizontalHeaderItem(2)
+        item.setText(_translate("MainWindow", "EMAIL"))
 
 
 if __name__ == "__main__":

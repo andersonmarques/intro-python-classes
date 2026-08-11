@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>984</width>
-    <height>260</height>
+    <height>648</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -241,6 +241,47 @@ QLabel, QLineEdit, QComboBox, QPushButton {
        <string>X</string>
       </property>
      </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>961</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>831</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Nome</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>CPF</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>EMAIL</string>
+      </property>
+     </column>
     </widget>
    </widget>
   </widget>

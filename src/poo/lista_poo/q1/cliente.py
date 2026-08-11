@@ -41,4 +41,4 @@ class Cliente:
             self.__cpf = cpf
 
     def __str__(self):
-        return f"{self.nome} - CPF: {self.cpf}"
+        return f"{self.nome}; {self.cpf}"
